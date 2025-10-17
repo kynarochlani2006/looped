@@ -1,0 +1,993 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/darshan/Documents/restome/looped/client/.npmrc
+5 silly config load:file:/Users/darshan/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/darshan/Documents/restome/looped/client/npm-cache/_logs/2025-10-17T11_24_26_622Z-
+10 verbose logfile /Users/darshan/Documents/restome/looped/client/npm-cache/_logs/2025-10-17T11_24_26_622Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/baseline-browser-mapping'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/browserslist'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/caniuse-lite'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/electron-to-chromium'
+18 silly reify ]
+19 silly reify mark retired [ '/Users/darshan/Documents/restome/looped/client/node_modules/debug' ]
+20 silly reify mark retired [
+20 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/eslint'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/eslint-plugin-react-refresh'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/esbuild'
+22 silly reify ]
+23 silly reify mark retired [ '/Users/darshan/Documents/restome/looped/client/node_modules/fdir' ]
+24 silly reify mark retired [
+24 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/globals'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/node-releases'
+25 silly reify ]
+26 silly reify mark retired [ '/Users/darshan/Documents/restome/looped/client/node_modules/react' ]
+27 silly reify mark retired [
+27 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/react-dom'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/react-refresh'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/rollup'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/scheduler'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/tinyglobby'
+31 silly reify ]
+32 silly reify mark retired [ '/Users/darshan/Documents/restome/looped/client/node_modules/vite' ]
+33 silly reify mark retired [
+33 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/core'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/compat-data'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/generator'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helper-globals'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helper-module-transforms'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helpers'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/parser'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/plugin-transform-react-jsx-self'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/plugin-transform-react-jsx-source'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/traverse'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/types'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/aix-ppc64'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm64'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-x64'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-arm64'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-x64'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-x64'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-arm64'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm64'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ia32'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-mips64el'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-loong64'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ppc64'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-riscv64'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-s390x'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-x64'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-arm64'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-x64'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-arm64'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-x64'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openharmony-arm64'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-arm64'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/sunos-x64'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-x64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-ia32'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/core'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/config-helpers'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/js'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint-community/eslint-utils'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/plugin-kit'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@humanfs/node'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/gen-mapping'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/remapping'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/sourcemap-codec'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/trace-mapping'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rolldown/pluginutils'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm-eabi'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm64'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-arm64'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-x64'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-arm64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-x64'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-musleabihf'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-gnu'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-musl'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-ppc64-gnu'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-loong64-gnu'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-gnu'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-musl'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-gnu'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-s390x-gnu'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-musl'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-arm64-msvc'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-openharmony-arm64'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-ia32-msvc'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-gnu'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-msvc'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/babel__traverse'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/react'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/react-dom'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@vitejs/plugin-react'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/acorn',
+107 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/acorn'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/js-yaml',
+108 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/js-yaml'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/jsesc',
+109 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/jsesc'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/json5',
+110 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/json5'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/nanoid',
+111 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/nanoid'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/semver',
+112 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/semver'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/update-browserslist-db',
+113 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/update-browserslist-db'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/which',
+114 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/node-which'
+114 silly reify ]
+115 silly reify moves {
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/baseline-browser-mapping': '/Users/darshan/Documents/restome/looped/client/node_modules/.baseline-browser-mapping-5OY798XS',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/browserslist': '/Users/darshan/Documents/restome/looped/client/node_modules/.browserslist-T7QR12EI',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/caniuse-lite': '/Users/darshan/Documents/restome/looped/client/node_modules/.caniuse-lite-45K9sHbN',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/electron-to-chromium': '/Users/darshan/Documents/restome/looped/client/node_modules/.electron-to-chromium-0dwdy3lC',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/debug': '/Users/darshan/Documents/restome/looped/client/node_modules/.debug-4HP521Gw',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/eslint': '/Users/darshan/Documents/restome/looped/client/node_modules/.eslint-Rw00ZQRa',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/eslint-plugin-react-refresh': '/Users/darshan/Documents/restome/looped/client/node_modules/.eslint-plugin-react-refresh-ENC1zQ6p',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/esbuild': '/Users/darshan/Documents/restome/looped/client/node_modules/.esbuild-6621CTO5',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/fdir': '/Users/darshan/Documents/restome/looped/client/node_modules/.fdir-CFFVo9uD',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/globals': '/Users/darshan/Documents/restome/looped/client/node_modules/.globals-onZxkocl',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/node-releases': '/Users/darshan/Documents/restome/looped/client/node_modules/.node-releases-KeUpbAS1',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/react': '/Users/darshan/Documents/restome/looped/client/node_modules/.react-0Yacbq1l',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/react-dom': '/Users/darshan/Documents/restome/looped/client/node_modules/.react-dom-j2v7lalJ',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/react-refresh': '/Users/darshan/Documents/restome/looped/client/node_modules/.react-refresh-ylHtTbsA',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/rollup': '/Users/darshan/Documents/restome/looped/client/node_modules/.rollup-6DauZfIY',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/scheduler': '/Users/darshan/Documents/restome/looped/client/node_modules/.scheduler-LDmLJxfM',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/tinyglobby': '/Users/darshan/Documents/restome/looped/client/node_modules/.tinyglobby-9lLr3HoJ',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/vite': '/Users/darshan/Documents/restome/looped/client/node_modules/.vite-upgPR29O',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/core': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.core-7MdEYVO2',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/compat-data': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.compat-data-x8GsBE7R',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/generator': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.generator-HonzbicD',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helper-globals': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.helper-globals-cfpxEk4t',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helper-module-transforms': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.helper-module-transforms-pJGhI8aF',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/helpers': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.helpers-LuJLwqTz',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/parser': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.parser-KoYqQuC8',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/plugin-transform-react-jsx-self': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.plugin-transform-react-jsx-self-iKCiPSLR',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/plugin-transform-react-jsx-source': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.plugin-transform-react-jsx-source-EcfXItLA',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/traverse': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.traverse-0i2VJ8A6',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/types': '/Users/darshan/Documents/restome/looped/client/node_modules/@babel/.types-owwDl6z9',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/aix-ppc64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.aix-ppc64-zPjqYhXo',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.android-arm64-ZBmOnFsV',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.android-arm-ogSHSqBv',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.android-x64-w4ADTpUT',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.darwin-arm64-kJa3yxi5',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.darwin-x64-w9XVeoUm',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.freebsd-x64-LOg0KGF4',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.freebsd-arm64-SbUebVuJ',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-arm-0J87XwzB',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-arm64-o6Rt6CVC',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ia32': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-ia32-h54RGs3C',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-mips64el': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-mips64el-gJ3g8dqC',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-loong64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-loong64-ubuPGdPT',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ppc64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-ppc64-17iL3ZMX',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-riscv64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-riscv64-voPrJlps',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-s390x': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-s390x-HIkTVQmP',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.linux-x64-j5pLfCdp',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.netbsd-arm64-pdJqGGgD',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.netbsd-x64-5RbcsAPN',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.openbsd-arm64-8FFaFL0k',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.openbsd-x64-X0oroy4E',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openharmony-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.openharmony-arm64-z9vzgBOO',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.win32-arm64-bulHDDBd',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/sunos-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.sunos-x64-28DcfW25',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.win32-x64-7zsGdekp',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-ia32': '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/.win32-ia32-R96rQMNS',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/core': '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/.core-NPYjFhOI',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/config-helpers': '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/.config-helpers-rj5bgrJX',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/js': '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/.js-RIDbAq0C',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint-community/eslint-utils': '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint-community/.eslint-utils-PZJRu5dq',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/plugin-kit': '/Users/darshan/Documents/restome/looped/client/node_modules/@eslint/.plugin-kit-dpr31CUs',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@humanfs/node': '/Users/darshan/Documents/restome/looped/client/node_modules/@humanfs/.node-tPAwvfdR',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/gen-mapping': '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/.gen-mapping-7sxN9crw',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/remapping': '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/.remapping-HEMh5P7k',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/sourcemap-codec': '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/.sourcemap-codec-8j0KRqlL',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/trace-mapping': '/Users/darshan/Documents/restome/looped/client/node_modules/@jridgewell/.trace-mapping-cwDRLrmS',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rolldown/pluginutils': '/Users/darshan/Documents/restome/looped/client/node_modules/@rolldown/.pluginutils-Y04keDPY',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm-eabi': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-android-arm-eabi-g2oJKBR8',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-android-arm64-CxkuHEY9',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-darwin-arm64-6AcaxIBZ',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-darwin-x64-lZO5gYBW',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-freebsd-arm64-9s1RCgob',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-x64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-freebsd-x64-h8umeIYB',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-gnueabihf': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-arm-gnueabihf-G5apM0RO',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-musleabihf': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-arm-musleabihf-fQXTvdYT',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-arm64-gnu-tuw9b8iO',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-musl': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-arm64-musl-iWKiDf70',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-ppc64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-ppc64-gnu-rmhlztP9',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-loong64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-loong64-gnu-FeEK82rk',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-riscv64-gnu-Rlosc4uf',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-musl': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-riscv64-musl-YBO9XsrV',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-x64-gnu-mS0cT0ba',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-s390x-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-s390x-gnu-58LANtP8',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-musl': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-linux-x64-musl-8QXqECFW',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-arm64-msvc': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-win32-arm64-msvc-9HB1tyoI',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-openharmony-arm64': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-openharmony-arm64-4UMTHMSv',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-ia32-msvc': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-win32-ia32-msvc-pWingsWy',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-gnu': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-win32-x64-gnu-g8q0Hw2V',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-msvc': '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/.rollup-win32-x64-msvc-cFicoFm0',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/babel__traverse': '/Users/darshan/Documents/restome/looped/client/node_modules/@types/.babel__traverse-XvrgCDGr',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/react': '/Users/darshan/Documents/restome/looped/client/node_modules/@types/.react-IsOXysqJ',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@types/react-dom': '/Users/darshan/Documents/restome/looped/client/node_modules/@types/.react-dom-8gvnLB8q',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@vitejs/plugin-react': '/Users/darshan/Documents/restome/looped/client/node_modules/@vitejs/.plugin-react-elnezd9r',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/acorn': '/Users/darshan/Documents/restome/looped/client/node_modules/.acorn-Yu13XvYY',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/acorn': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.acorn-1RVxY2aV',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/js-yaml': '/Users/darshan/Documents/restome/looped/client/node_modules/.js-yaml-Dq6O4Hks',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/js-yaml': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.js-yaml-EkzaxwV7',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/jsesc': '/Users/darshan/Documents/restome/looped/client/node_modules/.jsesc-37G2plX4',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/jsesc': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.jsesc-JqElMIS0',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/json5': '/Users/darshan/Documents/restome/looped/client/node_modules/.json5-zRBl7aMU',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/json5': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.json5-vH0m8QBC',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/nanoid': '/Users/darshan/Documents/restome/looped/client/node_modules/.nanoid-TEMZ4kWt',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/nanoid': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.nanoid-yGPUpNQg',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/semver': '/Users/darshan/Documents/restome/looped/client/node_modules/.semver-GLybtjUa',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/semver': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.semver-3FtcFJIu',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/update-browserslist-db': '/Users/darshan/Documents/restome/looped/client/node_modules/.update-browserslist-db-qFd5uOAv',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/update-browserslist-db': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.update-browserslist-db-moTe2GFv',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/which': '/Users/darshan/Documents/restome/looped/client/node_modules/.which-NMTuWrIA',
+115 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/node-which': '/Users/darshan/Documents/restome/looped/client/node_modules/.bin/.node-which-XKMpyOOt'
+115 silly reify }
+116 silly audit bulk request {
+116 silly audit   '@babel/code-frame': [ '7.27.1' ],
+116 silly audit   '@babel/compat-data': [ '7.28.4' ],
+116 silly audit   '@babel/core': [ '7.28.4' ],
+116 silly audit   '@babel/generator': [ '7.28.3' ],
+116 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+116 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+116 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+116 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+116 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+116 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+116 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ],
+116 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+116 silly audit   '@babel/helpers': [ '7.28.4' ],
+116 silly audit   '@babel/parser': [ '7.28.4' ],
+116 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+116 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+116 silly audit   '@babel/template': [ '7.27.2' ],
+116 silly audit   '@babel/traverse': [ '7.28.4' ],
+116 silly audit   '@babel/types': [ '7.28.4' ],
+116 silly audit   '@esbuild/aix-ppc64': [ '0.25.11' ],
+116 silly audit   '@esbuild/android-arm': [ '0.25.11' ],
+116 silly audit   '@esbuild/android-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/android-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/darwin-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/darwin-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/freebsd-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/freebsd-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-arm': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-ia32': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-loong64': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-mips64el': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-ppc64': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-riscv64': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-s390x': [ '0.25.11' ],
+116 silly audit   '@esbuild/linux-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/netbsd-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/netbsd-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/openbsd-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/openbsd-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/openharmony-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/sunos-x64': [ '0.25.11' ],
+116 silly audit   '@esbuild/win32-arm64': [ '0.25.11' ],
+116 silly audit   '@esbuild/win32-ia32': [ '0.25.11' ],
+116 silly audit   '@esbuild/win32-x64': [ '0.25.11' ],
+116 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+116 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+116 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+116 silly audit   '@eslint/config-array': [ '0.21.0' ],
+116 silly audit   '@eslint/config-helpers': [ '0.4.0' ],
+116 silly audit   '@eslint/core': [ '0.16.0' ],
+116 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+116 silly audit   globals: [ '14.0.0', '16.4.0' ],
+116 silly audit   '@eslint/js': [ '9.37.0' ],
+116 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+116 silly audit   '@eslint/plugin-kit': [ '0.4.0' ],
+116 silly audit   '@humanfs/core': [ '0.19.1' ],
+116 silly audit   '@humanfs/node': [ '0.16.7' ],
+116 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+116 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+116 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+116 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+116 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+116 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+116 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+116 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.38' ],
+116 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-android-arm64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-darwin-arm64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-darwin-x64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-freebsd-x64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.52.4' ],
+116 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.52.4' ],
+116 silly audit   '@types/babel__core': [ '7.20.5' ],
+116 silly audit   '@types/babel__generator': [ '7.27.0' ],
+116 silly audit   '@types/babel__template': [ '7.4.4' ],
+116 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+116 silly audit   '@types/estree': [ '1.0.8' ],
+116 silly audit   '@types/json-schema': [ '7.0.15' ],
+116 silly audit   '@types/react': [ '19.2.2' ],
+116 silly audit   '@types/react-dom': [ '19.2.2' ],
+116 silly audit   '@vitejs/plugin-react': [ '5.0.4' ],
+116 silly audit   acorn: [ '8.15.0' ],
+116 silly audit   'acorn-jsx': [ '5.3.2' ],
+116 silly audit   ajv: [ '6.12.6' ],
+116 silly audit   'ansi-styles': [ '4.3.0' ],
+116 silly audit   argparse: [ '2.0.1' ],
+116 silly audit   'balanced-match': [ '1.0.2' ],
+116 silly audit   'baseline-browser-mapping': [ '2.8.17' ],
+116 silly audit   'brace-expansion': [ '1.1.12' ],
+116 silly audit   browserslist: [ '4.26.3' ],
+116 silly audit   callsites: [ '3.1.0' ],
+116 silly audit   'caniuse-lite': [ '1.0.30001751' ],
+116 silly audit   chalk: [ '4.1.2' ],
+116 silly audit   'color-convert': [ '2.0.1' ],
+116 silly audit   'color-name': [ '1.1.4' ],
+116 silly audit   'concat-map': [ '0.0.1' ],
+116 silly audit   'convert-source-map': [ '2.0.0' ],
+116 silly audit   'cross-spawn': [ '7.0.6' ],
+116 silly audit   csstype: [ '3.1.3' ],
+116 silly audit   debug: [ '4.4.3' ],
+116 silly audit   'deep-is': [ '0.1.4' ],
+116 silly audit   'electron-to-chromium': [ '1.5.237' ],
+116 silly audit   esbuild: [ '0.25.11' ],
+116 silly audit   escalade: [ '3.2.0' ],
+116 silly audit   'escape-string-regexp': [ '4.0.0' ],
+116 silly audit   eslint: [ '9.37.0' ],
+116 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+116 silly audit   'eslint-plugin-react-refresh': [ '0.4.24' ],
+116 silly audit   'eslint-scope': [ '8.4.0' ],
+116 silly audit   espree: [ '10.4.0' ],
+116 silly audit   esquery: [ '1.6.0' ],
+116 silly audit   esrecurse: [ '4.3.0' ],
+116 silly audit   estraverse: [ '5.3.0' ],
+116 silly audit   esutils: [ '2.0.3' ],
+116 silly audit   'fast-deep-equal': [ '3.1.3' ],
+116 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+116 silly audit   'fast-levenshtein': [ '2.0.6' ],
+116 silly audit   fdir: [ '6.5.0' ],
+116 silly audit   'file-entry-cache': [ '8.0.0' ],
+116 silly audit   'find-up': [ '5.0.0' ],
+116 silly audit   'flat-cache': [ '4.0.1' ],
+116 silly audit   flatted: [ '3.3.3' ],
+116 silly audit   fsevents: [ '2.3.3' ],
+116 silly audit   gensync: [ '1.0.0-beta.2' ],
+116 silly audit   'glob-parent': [ '6.0.2' ],
+116 silly audit   'has-flag': [ '4.0.0' ],
+116 silly audit   ignore: [ '5.3.2' ],
+116 silly audit   'import-fresh': [ '3.3.1' ],
+116 silly audit   imurmurhash: [ '0.1.4' ],
+116 silly audit   'is-extglob': [ '2.1.1' ],
+116 silly audit   'is-glob': [ '4.0.3' ],
+116 silly audit   isexe: [ '2.0.0' ],
+116 silly audit   'js-tokens': [ '4.0.0' ],
+116 silly audit   'js-yaml': [ '4.1.0' ],
+116 silly audit   jsesc: [ '3.1.0' ],
+116 silly audit   'json-buffer': [ '3.0.1' ],
+116 silly audit   'json-schema-traverse': [ '0.4.1' ],
+116 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+116 silly audit   json5: [ '2.2.3' ],
+116 silly audit   keyv: [ '4.5.4' ],
+116 silly audit   levn: [ '0.4.1' ],
+116 silly audit   'locate-path': [ '6.0.0' ],
+116 silly audit   'lodash.merge': [ '4.6.2' ],
+116 silly audit   'lru-cache': [ '5.1.1' ],
+116 silly audit   minimatch: [ '3.1.2' ],
+116 silly audit   ms: [ '2.1.3' ],
+116 silly audit   nanoid: [ '3.3.11' ],
+116 silly audit   'natural-compare': [ '1.4.0' ],
+116 silly audit   'node-releases': [ '2.0.25' ],
+116 silly audit   optionator: [ '0.9.4' ],
+116 silly audit   'p-limit': [ '3.1.0' ],
+116 silly audit   'p-locate': [ '5.0.0' ],
+116 silly audit   'parent-module': [ '1.0.1' ],
+116 silly audit   'path-exists': [ '4.0.0' ],
+116 silly audit   'path-key': [ '3.1.1' ],
+116 silly audit   picocolors: [ '1.1.1' ],
+116 silly audit   picomatch: [ '4.0.3' ],
+116 silly audit   postcss: [ '8.5.6' ],
+116 silly audit   'prelude-ls': [ '1.2.1' ],
+116 silly audit   punycode: [ '2.3.1' ],
+116 silly audit   react: [ '19.2.0' ],
+116 silly audit   'react-dom': [ '19.2.0' ],
+116 silly audit   'react-refresh': [ '0.17.0' ],
+116 silly audit   'resolve-from': [ '4.0.0' ],
+116 silly audit   rollup: [ '4.52.4' ],
+116 silly audit   scheduler: [ '0.27.0' ],
+116 silly audit   semver: [ '6.3.1' ],
+116 silly audit   'shebang-command': [ '2.0.0' ],
+116 silly audit   'shebang-regex': [ '3.0.0' ],
+116 silly audit   'source-map-js': [ '1.2.1' ],
+116 silly audit   'strip-json-comments': [ '3.1.1' ],
+116 silly audit   'supports-color': [ '7.2.0' ],
+116 silly audit   tinyglobby: [ '0.2.15' ],
+116 silly audit   'type-check': [ '0.4.0' ],
+116 silly audit   'update-browserslist-db': [ '1.1.3' ],
+116 silly audit   'uri-js': [ '4.4.1' ],
+116 silly audit   vite: [ '7.1.10' ],
+116 silly audit   which: [ '2.0.2' ],
+116 silly audit   'word-wrap': [ '1.2.5' ],
+116 silly audit   yallist: [ '3.1.1' ],
+116 silly audit   'yocto-queue': [ '0.1.0' ]
+116 silly audit }
+117 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-msvc
+118 silly reify mark deleted [
+118 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-msvc'
+118 silly reify ]
+119 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-gnu
+120 silly reify mark deleted [
+120 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-x64-gnu'
+120 silly reify ]
+121 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-ia32-msvc
+122 silly reify mark deleted [
+122 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-ia32-msvc'
+122 silly reify ]
+123 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-openharmony-arm64
+124 silly reify mark deleted [
+124 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-openharmony-arm64'
+124 silly reify ]
+125 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-arm64-msvc
+126 silly reify mark deleted [
+126 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-win32-arm64-msvc'
+126 silly reify ]
+127 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-musl
+128 silly reify mark deleted [
+128 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-musl'
+128 silly reify ]
+129 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-s390x-gnu
+130 silly reify mark deleted [
+130 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-s390x-gnu'
+130 silly reify ]
+131 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-gnu
+132 silly reify mark deleted [
+132 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-x64-gnu'
+132 silly reify ]
+133 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-musl
+134 silly reify mark deleted [
+134 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-musl'
+134 silly reify ]
+135 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-gnu
+136 silly reify mark deleted [
+136 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-riscv64-gnu'
+136 silly reify ]
+137 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-loong64-gnu
+138 silly reify mark deleted [
+138 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-loong64-gnu'
+138 silly reify ]
+139 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-ppc64-gnu
+140 silly reify mark deleted [
+140 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-ppc64-gnu'
+140 silly reify ]
+141 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-musl
+142 silly reify mark deleted [
+142 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-musl'
+142 silly reify ]
+143 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-gnu
+144 silly reify mark deleted [
+144 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm64-gnu'
+144 silly reify ]
+145 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-musleabihf
+146 silly reify mark deleted [
+146 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-musleabihf'
+146 silly reify ]
+147 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-gnueabihf
+148 silly reify mark deleted [
+148 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+148 silly reify ]
+149 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-x64
+150 silly reify mark deleted [
+150 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-x64'
+150 silly reify ]
+151 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-arm64
+152 silly reify mark deleted [
+152 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-freebsd-arm64'
+152 silly reify ]
+153 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-x64
+154 silly reify mark deleted [
+154 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-x64'
+154 silly reify ]
+155 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm64
+156 silly reify mark deleted [
+156 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm64'
+156 silly reify ]
+157 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm-eabi
+158 silly reify mark deleted [
+158 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-android-arm-eabi'
+158 silly reify ]
+159 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-ia32
+160 silly reify mark deleted [
+160 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-ia32'
+160 silly reify ]
+161 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-x64
+162 silly reify mark deleted [
+162 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-x64'
+162 silly reify ]
+163 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/sunos-x64
+164 silly reify mark deleted [
+164 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/sunos-x64'
+164 silly reify ]
+165 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-arm64
+166 silly reify mark deleted [
+166 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/win32-arm64'
+166 silly reify ]
+167 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openharmony-arm64
+168 silly reify mark deleted [
+168 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openharmony-arm64'
+168 silly reify ]
+169 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-x64
+170 silly reify mark deleted [
+170 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-x64'
+170 silly reify ]
+171 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-arm64
+172 silly reify mark deleted [
+172 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/openbsd-arm64'
+172 silly reify ]
+173 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-x64
+174 silly reify mark deleted [
+174 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-x64'
+174 silly reify ]
+175 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-arm64
+176 silly reify mark deleted [
+176 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/netbsd-arm64'
+176 silly reify ]
+177 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-x64
+178 silly reify mark deleted [
+178 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-x64'
+178 silly reify ]
+179 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-s390x
+180 silly reify mark deleted [
+180 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-s390x'
+180 silly reify ]
+181 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-riscv64
+182 silly reify mark deleted [
+182 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-riscv64'
+182 silly reify ]
+183 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ppc64
+184 silly reify mark deleted [
+184 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ppc64'
+184 silly reify ]
+185 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-loong64
+186 silly reify mark deleted [
+186 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-loong64'
+186 silly reify ]
+187 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-mips64el
+188 silly reify mark deleted [
+188 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-mips64el'
+188 silly reify ]
+189 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ia32
+190 silly reify mark deleted [
+190 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-ia32'
+190 silly reify ]
+191 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm64
+192 silly reify mark deleted [
+192 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm64'
+192 silly reify ]
+193 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm
+194 silly reify mark deleted [
+194 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/linux-arm'
+194 silly reify ]
+195 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-arm64
+196 silly reify mark deleted [
+196 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-arm64'
+196 silly reify ]
+197 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-x64
+198 silly reify mark deleted [
+198 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/freebsd-x64'
+198 silly reify ]
+199 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-x64
+200 silly reify mark deleted [
+200 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/darwin-x64'
+200 silly reify ]
+201 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-x64
+202 silly reify mark deleted [
+202 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-x64'
+202 silly reify ]
+203 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm
+204 silly reify mark deleted [
+204 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm'
+204 silly reify ]
+205 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm64
+206 silly reify mark deleted [
+206 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/android-arm64'
+206 silly reify ]
+207 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/aix-ppc64
+208 silly reify mark deleted [
+208 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@esbuild/aix-ppc64'
+208 silly reify ]
+209 silly audit bulk request failed undefined
+210 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/audits/quick failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+210 verbose audit error     at ClientRequest.<anonymous> (/opt/homebrew/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+210 verbose audit error     at ClientRequest.emit (node:events:507:28)
+210 verbose audit error     at emitErrorEvent (node:_http_client:104:11)
+210 verbose audit error     at _destroy (node:_http_client:898:9)
+210 verbose audit error     at onSocketNT (node:_http_client:918:5)
+210 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+210 verbose audit error   code: 'ENOTFOUND',
+210 verbose audit error   errno: 'ENOTFOUND',
+210 verbose audit error   syscall: 'getaddrinfo',
+210 verbose audit error   hostname: 'registry.npmjs.org',
+210 verbose audit error   type: 'system'
+210 verbose audit error }
+211 silly audit error undefined
+212 silly audit report null
+213 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+214 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+215 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+216 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz 0ms (cache hit)
+217 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+218 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+219 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz 0ms (cache hit)
+220 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz 0ms (cache hit)
+221 http cache @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz 0ms (cache hit)
+222 http cache @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz 1ms (cache hit)
+223 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz 0ms (cache hit)
+224 http cache @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz 0ms (cache hit)
+225 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz 0ms (cache hit)
+226 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+227 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+228 http cache @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.38.tgz 0ms (cache hit)
+229 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+230 http cache @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz 0ms (cache hit)
+231 http cache @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.0.tgz 0ms (cache hit)
+232 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+233 http cache @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-9.37.0.tgz 0ms (cache hit)
+234 http cache @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz 0ms (cache hit)
+235 http cache @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.11.tgz 0ms (cache hit)
+236 http cache @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.0.tgz 0ms (cache hit)
+237 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.28.4.tgz 0ms (cache hit)
+238 http cache @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz 0ms (cache hit)
+239 http cache @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-0.16.0.tgz 0ms (cache hit)
+240 http cache @babel/traverse@https://registry.npmjs.org/@babel/traverse/-/traverse-7.28.4.tgz 0ms (cache hit)
+241 http cache @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz 0ms (cache hit)
+242 http cache @babel/generator@https://registry.npmjs.org/@babel/generator/-/generator-7.28.3.tgz 0ms (cache hit)
+243 http cache @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.4.tgz 0ms (cache hit)
+244 http cache @babel/helper-module-transforms@https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.3.tgz 0ms (cache hit)
+245 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.28.4.tgz 0ms (cache hit)
+246 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz 0ms (cache hit)
+247 http cache @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.28.4.tgz 0ms (cache hit)
+248 http cache vite@https://registry.npmjs.org/vite/-/vite-7.1.10.tgz 0ms (cache hit)
+249 http cache @babel/helper-globals@https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz 0ms (cache hit)
+250 http cache react-refresh@https://registry.npmjs.org/react-refresh/-/react-refresh-0.17.0.tgz 0ms (cache hit)
+251 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.52.4.tgz 0ms (cache hit)
+252 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+253 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+254 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz 0ms (cache hit)
+255 http cache react@https://registry.npmjs.org/react/-/react-19.2.0.tgz 0ms (cache hit)
+256 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.25.tgz 0ms (cache hit)
+257 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+258 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz 0ms (cache hit)
+259 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+260 http cache globals@https://registry.npmjs.org/globals/-/globals-16.4.0.tgz 0ms (cache hit)
+261 http cache eslint-plugin-react-refresh@https://registry.npmjs.org/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.24.tgz 0ms (cache hit)
+262 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.237.tgz 0ms (cache hit)
+263 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.37.0.tgz 0ms (cache hit)
+264 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.26.3.tgz 0ms (cache hit)
+265 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001751.tgz 0ms (cache hit)
+266 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.8.17.tgz 0ms (cache hit)
+267 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+268 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+269 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+270 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz. Extracting by manifest.
+271 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+272 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+273 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz. Extracting by manifest.
+274 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz. Extracting by manifest.
+275 silly tarball no local data for @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz. Extracting by manifest.
+276 silly tarball no local data for @vitejs/plugin-react@https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz. Extracting by manifest.
+277 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz. Extracting by manifest.
+278 silly tarball no local data for @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz. Extracting by manifest.
+279 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz. Extracting by manifest.
+280 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+281 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+282 silly tarball no local data for @rolldown/pluginutils@https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-beta.38.tgz. Extracting by manifest.
+283 silly tarball no local data for @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+284 silly tarball no local data for @humanfs/node@https://registry.npmjs.org/@humanfs/node/-/node-0.16.7.tgz. Extracting by manifest.
+285 silly tarball no local data for @eslint/plugin-kit@https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.0.tgz. Extracting by manifest.
+286 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+287 silly tarball no local data for @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-9.37.0.tgz. Extracting by manifest.
+288 silly tarball no local data for @eslint-community/eslint-utils@https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz. Extracting by manifest.
+289 silly tarball no local data for @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.11.tgz. Extracting by manifest.
+290 silly tarball no local data for @eslint/config-helpers@https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.0.tgz. Extracting by manifest.
+291 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.28.4.tgz. Extracting by manifest.
+292 silly tarball no local data for @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz. Extracting by manifest.
+293 silly tarball no local data for @eslint/core@https://registry.npmjs.org/@eslint/core/-/core-0.16.0.tgz. Extracting by manifest.
+294 silly tarball no local data for @babel/traverse@https://registry.npmjs.org/@babel/traverse/-/traverse-7.28.4.tgz. Extracting by manifest.
+295 silly tarball no local data for @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz. Extracting by manifest.
+296 silly tarball no local data for @babel/generator@https://registry.npmjs.org/@babel/generator/-/generator-7.28.3.tgz. Extracting by manifest.
+297 silly tarball no local data for @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.28.4.tgz. Extracting by manifest.
+298 silly tarball no local data for @babel/helper-module-transforms@https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.3.tgz. Extracting by manifest.
+299 silly tarball no local data for @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.28.4.tgz. Extracting by manifest.
+300 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.28.4.tgz. Extracting by manifest.
+301 silly tarball no local data for @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.28.4.tgz. Extracting by manifest.
+302 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-7.1.10.tgz. Extracting by manifest.
+303 silly tarball no local data for @babel/helper-globals@https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz. Extracting by manifest.
+304 silly tarball no local data for react-refresh@https://registry.npmjs.org/react-refresh/-/react-refresh-0.17.0.tgz. Extracting by manifest.
+305 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.52.4.tgz. Extracting by manifest.
+306 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+307 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz. Extracting by manifest.
+308 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz. Extracting by manifest.
+309 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.0.tgz. Extracting by manifest.
+310 silly tarball no local data for node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.25.tgz. Extracting by manifest.
+311 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+312 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.11.tgz. Extracting by manifest.
+313 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+314 silly tarball no local data for globals@https://registry.npmjs.org/globals/-/globals-16.4.0.tgz. Extracting by manifest.
+315 silly tarball no local data for eslint-plugin-react-refresh@https://registry.npmjs.org/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.24.tgz. Extracting by manifest.
+316 silly tarball no local data for electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.237.tgz. Extracting by manifest.
+317 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-9.37.0.tgz. Extracting by manifest.
+318 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.26.3.tgz. Extracting by manifest.
+319 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001751.tgz. Extracting by manifest.
+320 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.8.17.tgz. Extracting by manifest.
+321 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 1 failed with ENOTFOUND
+322 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 1 failed with ENOTFOUND
+323 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 1 failed with ENOTFOUND
+324 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz attempt 1 failed with ENOTFOUND
+325 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 1 failed with ENOTFOUND
+326 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 1 failed with ENOTFOUND
+327 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz attempt 1 failed with ENOTFOUND
+328 http fetch GET https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz attempt 1 failed with ENOTFOUND
+329 http fetch GET https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz attempt 1 failed with ENOTFOUND
+330 http fetch GET https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz attempt 1 failed with ENOTFOUND
+331 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz attempt 1 failed with ENOTFOUND
+332 http fetch GET https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz attempt 1 failed with ENOTFOUND
+333 http fetch GET https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz attempt 1 failed with ENOTFOUND
+334 http fetch GET https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz attempt 1 failed with ENOTFOUND
+335 http fetch GET https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz attempt 1 failed with ENOTFOUND
+336 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+337 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 2 failed with ENOTFOUND
+338 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 2 failed with ENOTFOUND
+339 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 2 failed with ENOTFOUND
+340 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz attempt 2 failed with ENOTFOUND
+341 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 2 failed with ENOTFOUND
+342 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 2 failed with ENOTFOUND
+343 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz attempt 2 failed with ENOTFOUND
+344 http fetch GET https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz attempt 2 failed with ENOTFOUND
+345 http fetch GET https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz attempt 2 failed with ENOTFOUND
+346 http fetch GET https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz attempt 2 failed with ENOTFOUND
+347 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz attempt 2 failed with ENOTFOUND
+348 http fetch GET https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz attempt 2 failed with ENOTFOUND
+349 http fetch GET https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz attempt 2 failed with ENOTFOUND
+350 http fetch GET https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz attempt 2 failed with ENOTFOUND
+351 http fetch GET https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz attempt 2 failed with ENOTFOUND
+352 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+353 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 3 failed with ENOTFOUND
+354 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 3 failed with ENOTFOUND
+355 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 3 failed with ENOTFOUND
+356 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz attempt 3 failed with ENOTFOUND
+357 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 3 failed with ENOTFOUND
+358 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 3 failed with ENOTFOUND
+359 http fetch GET https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz attempt 3 failed with ENOTFOUND
+360 http fetch GET https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.2.tgz attempt 3 failed with ENOTFOUND
+361 http fetch GET https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz attempt 3 failed with ENOTFOUND
+362 http fetch GET https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz attempt 3 failed with ENOTFOUND
+363 http fetch GET https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz attempt 3 failed with ENOTFOUND
+364 http fetch GET https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.52.4.tgz attempt 3 failed with ENOTFOUND
+365 verbose reify failed optional dependency /Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-arm64
+366 silly reify mark deleted [
+366 silly reify   '/Users/darshan/Documents/restome/looped/client/node_modules/@rollup/rollup-darwin-arm64'
+366 silly reify ]
+367 http fetch GET https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz attempt 3 failed with ENOTFOUND
+368 http fetch GET https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz attempt 3 failed with ENOTFOUND
+369 http fetch GET https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz attempt 3 failed with ENOTFOUND
+370 verbose cwd /Users/darshan/Documents/restome/looped/client
+371 verbose os Darwin 25.0.0
+372 verbose node v23.11.0
+373 verbose npm  v10.9.2
+374 error Exit handler never called!
+375 error This is an error with npm itself. Please report this error at:
+376 error   <https://github.com/npm/cli/issues>
+377 verbose exit 1
+378 verbose code 1
+379 error A complete log of this run can be found in: /Users/darshan/Documents/restome/looped/client/npm-cache/_logs/2025-10-17T11_24_26_622Z-debug-0.log

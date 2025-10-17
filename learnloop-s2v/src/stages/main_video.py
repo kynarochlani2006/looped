@@ -1,3 +1,14 @@
+"""
+End-to-end driver for generating scripts and calling FAL to produce avatar videos.
+
+Flow:
+1) Load `.env` for keys
+2) Optionally skip OpenAI and send a single script directly to FAL (`--direct-to-fal`)
+3) Otherwise: generate a series (topic + N scripts) via OpenAI
+4) Save scripts to a timestamped folder; optionally submit each to FAL
+5) Download resulting videos to the same folder
+"""
+
 import argparse
 import json
 import os
@@ -6,6 +17,7 @@ import time
 from pathlib import Path
 from typing import List
 
+# Attempt to load environment variables from repo root `.env`.
 # Load environment variables from learnloop-s2v/.env if python-dotenv is available
 try:
     from dotenv import load_dotenv  # type: ignore
@@ -30,6 +42,11 @@ except Exception:
 
 
 def _slugify(value: str) -> str:
+    """Convert arbitrary text to a filesystem-friendly slug.
+
+    Replaces non-alphanumeric characters with hyphens and collapses repeats.
+    Returns "untitled" if the input becomes empty after normalization.
+    """
     slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in value).strip("-")
     while "--" in slug:
         slug = slug.replace("--", "-")
@@ -37,6 +54,10 @@ def _slugify(value: str) -> str:
 
 
 def _timestamp_folder(base_dir: Path) -> Path:
+    """Create and return a folder with a timestamp name inside base_dir.
+
+    Format: EP_YYYYMMDD_HHMMSS
+    """
     ts = time.strftime("EP_%Y%m%d_%H%M%S")
     out = base_dir / ts
     out.mkdir(parents=True, exist_ok=True)
@@ -44,6 +65,12 @@ def _timestamp_folder(base_dir: Path) -> Path:
 
 
 def _download(url: str, dest: Path) -> None:
+    """Download a large file in streaming chunks with error propagation.
+
+    Args:
+        url: HTTP(S) URL to download from.
+        dest: Local file path to write to (parent dirs must exist).
+    """
     with requests.get(url, stream=True, timeout=300) as r:
         r.raise_for_status()
         with open(dest, "wb") as f:
@@ -76,6 +103,11 @@ def _parse_args(argv: List[str]) -> argparse.Namespace:
 
 
 def main(argv: List[str]) -> int:
+    """CLI entry point orchestrating OpenAI generation and FAL submissions.
+
+    Returns:
+        0 on success, non-zero on error or user-aborted flows.
+    """
     args = _parse_args(argv)
 
     out_root = Path(args.out_dir)

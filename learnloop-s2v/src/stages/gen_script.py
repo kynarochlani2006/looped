@@ -1,3 +1,13 @@
+"""
+Generate a short-form educational video series:
+
+- Loads `.env` and requires `OPENAI_API_KEY`
+- Calls OpenAI (Responses API preferred, chat.completions fallback) to get
+  strict-JSON output for topic metadata and N scripts
+- Parses and normalizes outputs into Python structures
+- CLI entry point prints N scripts to stdout
+"""
+
 import argparse
 import json
 import os
@@ -6,6 +16,7 @@ from pathlib import Path
 from typing import List
 import re
 
+# Best-effort load of environment variables from repo root `.env`
 # Load environment variables from learnloop-s2v/.env if python-dotenv is available
 try:
     from dotenv import load_dotenv  # type: ignore
@@ -16,6 +27,17 @@ except Exception:
 
 
 def _require_env(key: str) -> str:
+    """Fetch a required environment variable.
+
+    Args:
+        key: Name of the environment variable to read.
+
+    Returns:
+        The value found in the environment.
+
+    Raises:
+        RuntimeError: If the variable is not set or empty.
+    """
     value = os.getenv(key)
     if not value:
         raise RuntimeError(f"Missing required environment variable: {key}")
@@ -23,6 +45,17 @@ def _require_env(key: str) -> str:
 
 
 def _get_openai_client():
+    """Create an OpenAI client using `OPENAI_API_KEY`.
+
+    Lazy-imports the SDK so this module can be used without OpenAI installed
+    (e.g., when only running the FAL stage).
+
+    Returns:
+        Initialized OpenAI client bound to the API key from env.
+
+    Raises:
+        RuntimeError: If the SDK is missing or the env var is not set.
+    """
     # Lazy import to avoid hard dependency when not used
     try:
         from openai import OpenAI  # type: ignore
@@ -36,10 +69,22 @@ def _get_openai_client():
 
 
 def _call_openai_json(input_text: str, model: str) -> str:
-    """
-    Use v1 APIs only.
-    1) Try Responses API
-    2) Fallback to v1 Chat Completions
+    """Send instructions and retrieve strict-JSON text from OpenAI.
+
+    Strategy:
+    1) Prefer Responses API (v1) and read `output_text` if present
+    2) Otherwise, concatenate any textual content blocks
+    3) Fall back to Chat Completions v1 if Responses fails
+
+    Args:
+        input_text: Fully-built instruction + user content to send.
+        model: Model name (e.g., "gpt-5").
+
+    Returns:
+        Raw string response (expected to be JSON text), not parsed.
+
+    Raises:
+        RuntimeError: If both calls fail.
     """
     # Try v1 Responses
     try:
@@ -141,11 +186,35 @@ VALIDATION
 
 
 def _build_generation_prompt(count: int) -> str:
+    """Fill the base prompt template with the desired script count.
+
+    Args:
+        count: Number of scripts to request in the output schema.
+
+    Returns:
+        The finalized instruction string sent to the model.
+    """
     plural = "s" if count != 1 else ""
     return UGC_SINGLE_SCRIPT_PROMPT_TEMPLATE.format(count=count, plural=plural)
 
 
 def generate_scripts(user_prompt: str, count: int = 10, model: str = "gpt-5") -> List[str]:
+    """Generate N short-form scripts from a user prompt.
+
+    The model is instructed to return a strict JSON object with a `script` field
+    containing keys like "script 1", "script 2", ...
+
+    If JSON parsing fails, a best-effort fallback splits the raw text by
+    double newlines. The final list is truncated or padded to exactly `count`.
+
+    Args:
+        user_prompt: Source text or topic description to condition generation.
+        count: Number of scripts to return.
+        model: OpenAI model name.
+
+    Returns:
+        List of `count` script strings.
+    """
     if count <= 0:
         return []
 
@@ -181,6 +250,7 @@ def generate_scripts(user_prompt: str, count: int = 10, model: str = "gpt-5") ->
                     continue
                 numbered.append((num, str(value).strip()))
 
+        # Sort by numeric suffix to preserve 1..N order
         numbered.sort(key=lambda x: x[0])
         result = [text for _, text in numbered if text]
     except Exception:
@@ -199,9 +269,17 @@ def generate_scripts(user_prompt: str, count: int = 10, model: str = "gpt-5") ->
 
 
 def generate_series(user_prompt: str, count: int = 10, model: str = "gpt-5") -> dict:
-    """Generate topic metadata and a list of scripts.
+    """Generate topic metadata and scripts together.
 
-    Returns a dict: {"topic": video_topic: str, "scripts": List[str]}
+    Args:
+        user_prompt: Source text or topic description to condition generation.
+        count: Number of scripts to request.
+        model: OpenAI model name.
+
+    Returns:
+        Dict with keys:
+          - "topic": normalized topic string (may be empty on parsing failures)
+          - "scripts": list of `count` scripts (padded/truncated)
     """
     # Build single input text once
     instructions = _build_generation_prompt(count)
@@ -255,6 +333,7 @@ def generate_series(user_prompt: str, count: int = 10, model: str = "gpt-5") -> 
 
 
 def _parse_args(argv: List[str]) -> argparse.Namespace:
+    """CLI argument parser for the script generation stage."""
     parser = argparse.ArgumentParser(
         description="Generate N educational avatar scripts from a prompt using OpenAI",
     )
@@ -280,6 +359,10 @@ def _parse_args(argv: List[str]) -> argparse.Namespace:
 
 
 def main(argv: List[str]) -> int:
+    """CLI entry point to generate and print scripts.
+
+    Returns a conventional exit code (0=success).
+    """
     args = _parse_args(argv)
 
     prompt = args.prompt
